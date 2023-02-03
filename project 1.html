@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya</title>
+    
+    <style>
+        body{
+            color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('bg.jpg');
+            
+        }
+        .left{
+            border: 2px solid red;
+            display: inline-block;
+            position:absolute;
+            left: 22px;
+            top: 22px;
+            
+        }
+        .mid{
+            border: 2px solid red;
+            display: block;
+            width: 33%;
+            margin: 22px auto;
+            top: 22px;
+        }
+        .right{
+            border: 2px solid red;
+            display: inline-block;
+            position: absolute;
+            right: 32px;
+            top: 22px;
+
+        }
+
+    </style>
+        
+</head>
+<head>
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    </head>
+<body>
+    <header class="headre">
+        <div class="left">
+            I am left
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            I am right
+        </div>
+        <py-script>
+        print("This program is to find Addition of two numbers")<br>
+        a=int(input("Enter the first number"))
+        b=int(input("Enter the second number"))
+        sum=a+b
+        print("Sum of two numbers is ",sum)
+        </py-script>
+    </header>
+</body>
+</html>
